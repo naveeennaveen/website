@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(0,0,0,.5);
+    background-color: black;
+    
+}
+.navbar .navbar-brand{
+font-size: 25px;
+font-weight: 800;
+color: #FF9633 !important;
+
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #FF9633;
+}
+#navbarSupportedContent button{
+    background: #FF9633;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+#home{
+    background-image: url(https://media.istockphoto.com/id/1284690585/photo/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors.jpg?s=612x612&w=0&k=20&c=fXqp_CPaHMyfzMhjZGQG1zloNBNkVRjdYKScw3K98XQ=);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 1px opx #ccc
+    0px 2px opx #ccc
+    0px 3px opx #ccc
+    0px 4px opx #ccc
+    0px 5px opx #ccc
+    0px 6px opx #ccc;
+}
+#home p{
+    color: #fff;
+    font-size: 20px;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background-color: #FF9633 !important;
+    color: #fff;
+    box-shadow: 2px 5px 4px rgb(0,0,0,.5);
+}
+#About{
+    background-color: #FFD433 ;
+    font-weight: 800px;
+    margin-top: 12px;
+    
+
+}
+#About .demo{
+    width: 100%;
+    height: 250px;
+}
+#product{
+    background-color: #e5e5;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700px;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background: #e5e5ee !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: 0.2s;            
+}
+
+#contact img{
+    height: 100%;
+    width: 450px;
+
+}
+.box{
+    width: 80% !important;
+
+    margin-top: 8px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background: #FFD433;
+    margin-top: -30px;
+    text-align: center;
+    color: black;
+    padding: 4px;
+}
